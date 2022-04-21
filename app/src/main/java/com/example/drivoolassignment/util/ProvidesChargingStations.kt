@@ -104,10 +104,127 @@ class ProvidesChargingStations {
     ]
   },
   {
-    "id": 555,
-    "name": "BESCOM Charging Station",
-    "place": "16,17th Mainroad",
+    "id": 255,
+    "name": "SemaConnect Charging Station",
+    "place": "123, Block 4, 50 Feet Main Rd, Ganapathi Nagar",
+    "openingTimes": "06:00AM-10:00PM",
+    "vehicleTypes": [
+      "Car",
+      "Bike",
+      "Scooty"
+    ],
+    "chargers": [
+      {
+        "id": "ch1",
+        "available": false,
+        "type": "AC Charger",
+        "vehicle": "Car"
+      },
+      {
+        "id": "ch2",
+        "available": true,
+        "type": "AC Charger",
+        "vehicle": "Bike"
+      },
+      {
+        "id": "ch3",
+        "available": true,
+        "type": "DC Charger",
+        "vehicle": "Scooty"
+      }
+    ]
+  },
+  {
+    "id": 585,
+    "name": "Kazam Charging Station",
+    "place": "WH8V+C78, S End C Cross Rd, KSRTC Layout, 2nd Phase",
     "openingTimes": "06:00AM-11:00PM",
+    "vehicleTypes": [
+      "Car",
+      "Bus",
+      "Auto"
+    ],
+    "chargers": [
+      {
+        "id": "ch1",
+        "available": true,
+        "type": "AC Charger",
+        "vehicle": "Car"
+      },
+      {
+        "id": "ch2",
+        "available": true,
+        "type": "DC Charger",
+        "vehicle": "Bus"
+      },
+      {
+        "id": "ch3",
+        "available": false,
+        "type": "DC Charger",
+        "vehicle": "Auto"
+      },
+      {
+        "id": "ch4",
+        "available": false,
+        "type": "DC Charger",
+        "vehicle": "Auto"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "name": "Charzer Charging Station",
+    "place": "44.45 shop no 1, Hosur Rd, near HDFC bank Singasandra",
+    "openingTimes": "08:00AM-11:00PM",
+    "vehicleTypes": [
+      "Car",
+      "Auto",
+      "Bike"
+    ],
+    "chargers": [
+      {
+        "id": "ch1",
+        "available": true,
+        "type": "AC Charger",
+        "vehicle": "Bike"
+      },
+      {
+        "id": "ch2",
+        "available": true,
+        "type": "DC Charger",
+        "vehicle": "Car"
+      },
+      {
+        "id": "ch3",
+        "available": false,
+        "type": "DC Charger",
+        "vehicle": "Auto"
+      },
+      {
+        "id": "ch4",
+        "available": false,
+        "type": "DC Charger",
+        "vehicle": "Bike"
+      },
+      {
+        "id": "ch5",
+        "available": false,
+        "type": "DC Charger",
+        "vehicle": "Car"
+      },
+      {
+        "id": "ch6",
+        "available": true,
+        "type": "AC Charger",
+        "vehicle": "Bike"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Zeon Charging Station",
+    "place": "XHF2+6JG, Magadi Main Rd, next to Prasanna Theatre",
+    "openingTimes": "10:00AM-11:00PM",
     "vehicleTypes": [
       "Car",
       "Bus",
@@ -155,14 +272,13 @@ class ProvidesChargingStations {
     ]
   },
   {
-    "id": 555,
-    "name": "BESCOM Charging Station",
-    "place": "16,17th Mainroad",
-    "openingTimes": "06:00AM-11:00PM",
+    "id": 654,
+    "name": "Ather Grid Charging Station",
+    "place": "64, 10th Main Rd, 4th Block, 5th Block, Jayanagar",
+    "openingTimes": "00:00AM-10:00PM",
     "vehicleTypes": [
       "Car",
       "Bus",
-      "Auto",
       "Bike",
       "Scooty"
     ],
@@ -171,7 +287,7 @@ class ProvidesChargingStations {
         "id": "ch1",
         "available": true,
         "type": "AC Charger",
-        "vehicle": "Car"
+        "vehicle": "Scooty"
       },
       {
         "id": "ch2",
@@ -183,7 +299,7 @@ class ProvidesChargingStations {
         "id": "ch3",
         "available": false,
         "type": "DC Charger",
-        "vehicle": "Scooty"
+        "vehicle": "Car"
       },
       {
         "id": "ch4",
@@ -195,7 +311,7 @@ class ProvidesChargingStations {
         "id": "ch5",
         "available": false,
         "type": "DC Charger",
-        "vehicle": "Auto"
+        "vehicle": "Bike"
       },
       {
         "id": "ch6",
@@ -206,16 +322,13 @@ class ProvidesChargingStations {
     ]
   },
   {
-    "id": 555,
-    "name": "BESCOM Charging Station",
-    "place": "16,17th Mainroad",
-    "openingTimes": "06:00AM-11:00PM",
+    "id": 114,
+    "name": "Shiva gowri",
+    "place": "1070, 27th Main Rd, Putlanpalya, Jayanagara 9th Block",
+    "openingTimes": "00:00AM-11:00PM",
     "vehicleTypes": [
       "Car",
-      "Bus",
-      "Auto",
-      "Bike",
-      "Scooty"
+      "Bus"
     ],
     "chargers": [
       {
@@ -228,43 +341,54 @@ class ProvidesChargingStations {
         "id": "ch2",
         "available": true,
         "type": "DC Charger",
-        "vehicle": "Scooty"
+        "vehicle": "Car"
       },
       {
         "id": "ch3",
         "available": false,
         "type": "DC Charger",
-        "vehicle": "Scooty"
+        "vehicle": "Bus"
       },
       {
         "id": "ch4",
         "available": false,
-        "type": "DC Charger",
+        "type": "AC Charger",
         "vehicle": "Bus"
-      },
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Electric Vehicle Charging Station",
+    "place": "64, 10th Main Rd, 4th Block, 5th Block, Jayanagar",
+    "openingTimes": "00:00AM-11:00PM",
+    "vehicleTypes": [
+      "Car",
+      "Bike"
+    ],
+    "chargers": [
       {
-        "id": "ch5",
-        "available": false,
-        "type": "DC Charger",
-        "vehicle": "Auto"
-      },
-      {
-        "id": "ch6",
+        "id": "ch1",
         "available": true,
         "type": "AC Charger",
+        "vehicle": "Car"
+      },
+      {
+        "id": "ch2",
+        "available": true,
+        "type": "DC Charger",
         "vehicle": "Bike"
       }
     ]
   },
   {
-    "id": 555,
-    "name": "BESCOM Charging Station",
-    "place": "16,17th Mainroad",
-    "openingTimes": "06:00AM-11:00PM",
+    "id": 654,
+    "name": "Vidyuth Power Charging Station",
+    "place": "70, 27th Main Rd, Putlanpalya, Jayanagara 9th Block",
+    "openingTimes": "00:00AM-11:59PM",
     "vehicleTypes": [
       "Car",
       "Bus",
-      "Auto",
       "Bike",
       "Scooty"
     ],
@@ -285,7 +409,7 @@ class ProvidesChargingStations {
         "id": "ch3",
         "available": false,
         "type": "DC Charger",
-        "vehicle": "Scooty"
+        "vehicle": "Car"
       },
       {
         "id": "ch4",
@@ -297,58 +421,7 @@ class ProvidesChargingStations {
         "id": "ch5",
         "available": false,
         "type": "DC Charger",
-        "vehicle": "Auto"
-      },
-      {
-        "id": "ch6",
-        "available": true,
-        "type": "AC Charger",
         "vehicle": "Bike"
-      }
-    ]
-  },
-  {
-    "id": 555,
-    "name": "BESCOM Charging Station",
-    "place": "16,17th Mainroad",
-    "openingTimes": "06:00AM-11:00PM",
-    "vehicleTypes": [
-      "Car",
-      "Bus",
-      "Auto",
-      "Bike",
-      "Scooty"
-    ],
-    "chargers": [
-      {
-        "id": "ch1",
-        "available": true,
-        "type": "AC Charger",
-        "vehicle": "Car"
-      },
-      {
-        "id": "ch2",
-        "available": true,
-        "type": "DC Charger",
-        "vehicle": "Scooty"
-      },
-      {
-        "id": "ch3",
-        "available": false,
-        "type": "DC Charger",
-        "vehicle": "Scooty"
-      },
-      {
-        "id": "ch4",
-        "available": false,
-        "type": "DC Charger",
-        "vehicle": "Bus"
-      },
-      {
-        "id": "ch5",
-        "available": false,
-        "type": "DC Charger",
-        "vehicle": "Auto"
       },
       {
         "id": "ch6",
