@@ -12,7 +12,6 @@ class ProvidesChargingStations {
 
     private val gson = Gson()
     lateinit var bangaloreChargingStations: ChargingStations
-//    lateinit var string:String
 
 
     private val data ="""[
@@ -438,26 +437,8 @@ class ProvidesChargingStations {
     }
 
     private fun convertToDataClass(){
-//        readfile()
-        print(data)
-        Log.d("DATA charging stations", data)
         bangaloreChargingStations = gson.fromJson(data, ChargingStations::class.java)
-        Log.d("Afterjsonparsing", bangaloreChargingStations.toString())
     }
-
-//    private fun readfile() {
-//
-//        try {
-//            val assetManager = Resources.getSystem().assets
-//            string = assetManager.readAssetsFile("file:///android_asset/ChargingStations.json")
-//            Log.d("ProvidesStations",string)
-//        } catch (e: IOException) {
-//            e.printStackTrace()
-//        }
-//    }
-
-
-//    fun AssetManager.readAssetsFile(fileName : String): String = open(fileName).bufferedReader().use{it.readText()}
 
 
     fun getchargingStations() = bangaloreChargingStations

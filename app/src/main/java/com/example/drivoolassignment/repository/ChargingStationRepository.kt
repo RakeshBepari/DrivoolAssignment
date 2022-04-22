@@ -8,7 +8,6 @@ object ChargingStationRepository {
 
     fun getChargingStations(): List<ChargingStationsItem> {
         val providesChargingStations = ProvidesChargingStations()
-        Log.d("ChargingStationRepo","reached repo")
         val chargingStationList = providesChargingStations.getchargingStations()
         return chargingStationList.toList()
     }
